@@ -1,96 +1,131 @@
-*{
-  margin:  0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f3fa;
-  background-repeat: repeat;
-  height: 100vh;
-  color: #1a1a1a;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <div class=""></div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 
-.herro{
-  background-image: url(assest/Hero-bg.png);
-}
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-}
-.header .logo{
-  font-size: 20px;
-  font-weight: bold;
-  color: #4c4cff;
-}
-.signup-btn{
-  background-color: #4c4cff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-}
+</head>
+<body>
+  <header>
+ <div class="header">
+    <div class="logo">Logo</div>
+    <a href="#" class="signup-btn">Sign Up</a>
+  </div>
+  <div class="main">
+    <h1>Cool Dark UI Template 
+      for<br>Webflow Agencies!
+    </h1>
+    <a href="#" class="focus-btn">Stay Focus</a>
+  </div>
+  </header>
 
-.main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 100px;
-}
+  <main>
+    <section class="preview-section">
+      <div class="text-content">
+        <h2>See It in Action</h2>
+        <p>Explore the live preview and imagine 
+          your bran in this bold newe lokk.
+        </p>
+        <a href="#" class="preview-btn">Lunch Live preview</a>
+      </div>
+      <div class="image">
+        <img src="assest/wc-mini.png" alt="Webflow preview">
+      </div>
 
-main h1{
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
+      <div class="joined">
+        <div class="title">Joined Thousend of Productive Users</div>
+        <div class="stats">
+          <div class="stat">
+            <div class="number">50k</div>
+            <div class="description">Active Users</div>
+          </div>
+          <div class="stat">
+            <div class="number">2M+</div>
+            <div class="desctiptions">Focus Sessions</div>
+          </div>
 
-.focus-btn{
-  background-color: #4c4cff;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-bottom: 100px;
-}
-.preview-section{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px;
-  flex-wrap: wrap;
-}
-.text-content{
-  max-width: 500px;
-}
-.text-content h2{
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  color: #1a1a1a;
-}
-.text-content p{
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 25px;
-}
+          <div class="stat">
+            <div class="number">95%</div>
+             <div class="description">Setisfastion Rate</div>
+          </div>
+         
+        </div>
+      </div>
 
-.preview-btn{
-  text-decoration: none;
-  background-color: #4c4cff;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 6px;
-  font-weight: bold;
-}
+         <div class="rating-content">
+            <h2 class="section-title">What our users Says</h2>
+            <div class="rating-grid">
+                <div class="rating-card">
+                    <div>
+                        <div class="stars">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <h3 class="rating-title">Loved by Designers</h3>
+                        <p class="rating-text">
+                            This template instantly leveled up our presence." – Studio Vertex
+                        </p>
+                    </div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-profile"></div> <div class="reviewer-details">
+                            <div class="reviewer-name">Reviewer name</div>
+                            <div class="date">Date</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="rating-card">
+                    <div>
+                        <div class="stars">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <h3 class="rating-title">Loved by Designers</h3>
+                        <p class="rating-text">
+                            This template instantly leveled up our presence." – Studio Vertex
+                        </p>
+                    </div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-profile"></div> <div class="reviewer-details">
+                            <div class="reviewer-name">Reviewer name</div>
+                            <div class="date">Date</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="rating-card">
+                    <div>
+                        <div class="stars">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <h3 class="rating-title">Loved by Designers</h3>
+                        <p class="rating-text">
+                            This template instantly leveled up our presence." – Studio Vertex
+                        </p>
+                    </div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-profile"></div> <div class="reviewer-details">
+                            <div class="reviewer-name">Reviewer name</div>
+                            <div class="date">Date</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-.image img{
-  max-width: 100%;
-  width: 400px;
-  border-radius: 20px;
-}
+                <div class="ready">
+            <h2 class="headline">Ready to focus better</h2>
+            <p class="sub-headline">This template instantly leveled up our presence." – Studio Vertex</p>
+            <div class="button-container">
+                <a href="#" class="started-button">Get Started Free</a>
+            </div>
+            <div class="image-ready">
+                <img src="assest/wc-big.png" alt="Webflow Conf 2022" class="video-frame">
+                </div>
+        </div>
+    </section>
+  </main>
+ 
+</body>
+</html>
