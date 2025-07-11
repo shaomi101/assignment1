@@ -347,3 +347,47 @@ button {
 button:hover {
     background-color: #5a4bbf;
 }
+
+.logo-container{
+  margin: 0 auto;
+  margin-top:100px;
+  text-align:center;
+  padding:20px;
+  max-width:800px;
+  width:100%;
+}
+
+.logo{
+  font-size:80px;
+  font-weight:700;
+  color:#4a47ff;
+  margin-bottom:40px; 
+  letter-spacing:2px;
+
+}
+
+.description{
+  font-size:18px;
+  color:#555;
+  line-height:1.6;
+  margin-bottom:50px;
+  padding:20px;
+}
+
+.navigation{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+}
+.navigation a{
+  text-decoration:none;
+  color:#555;
+  font-size:18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover{
+  color: #4a47ff;
+}
